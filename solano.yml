@@ -3,7 +3,6 @@ php:
   version: '5.6'
 hooks:
   pre_setup: composer.phar install
-  post_build: rm -rf composer*
 cache:
   key_paths:
     - composer.json
